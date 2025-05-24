@@ -8,16 +8,39 @@
             color:gray;
             text-decoration:none;
         }
+        h1{
+            font-size:50px;
+            text-align:center;
+            border-bottom:2px solid gainsboro;
+            padding: 30px;
+            margin:0;
+        }
+        ol{
+            border-right:2px solid gainsboro;
+            width:120px;
+            height:400px;
+            margin:0;
+            padding:30px;
+        }
+        #grid{ 
+            display:grid;
+            grid-template-columns: 250px 1fr;
+        }
+    
     </style>
 </head>
 <body>
     <h1><a href="index.html" style="color:hotpink;text-decoration:underline;">맹구</a></h1>
+     <div id="grid">
     <ol>
         <li><a href="1.html">맹구</a></li>
         <li><a href="2.html">Other Cats</a></li>
     </ol>
-    <h2>맹구</h2>
-    <img src="맹구2.jpg" width="500px">
+    <div>
+        <h2>맹구</h2>
+    <img src="맹구2.jpg" width="300px">
     <br><br><strong><u>맹구입니다</u></strong>
+    </div>
+    </div>
 </body>
 </html>
