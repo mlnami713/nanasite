@@ -23,7 +23,22 @@
     #grid {
         display:grid;
         grid-template-columns: 1fr 2fr;
-        gap:30px;
+    }
+    #grid ol{
+        padding-left:50px;
+    }
+    #maeng{
+        padding-left:30px;
+    }
+    @media(max-width:650px){
+         #grid {
+        display:block;
+    }
+    ol{
+            border-right:none;
+            border-bottom: 2px dashed gainsboro;
+            width:650px;
+}
     }
     </style>
 </head>
@@ -34,7 +49,7 @@
         <li><a href="1.html" style="color:hotpink;text-decoration:underline">맹구</a></li>
         <li><a href="2.html">Other Cats</a></li>
     </ol>
-    <div>
+    <div id="maeng">
         <h2>맹구</h2>
         <img src="맹구.jpg" width="400px">
         <br><br><strong><u>맹구</u> a.k.a. 주댕이</strong>는 Riv.공지천, Chuncheon City 출신이다.
