@@ -10,16 +10,31 @@
         }
           h1{
         text-align: center;
-        width:200px;
+        border-bottom: 2px solid gainsboro;
+        padding: 30px;
+        margin:0;
+    }
+    ol{
+            border-right:2px solid gainsboro;
+            width:120px;
+            margin:0;
+            padding:30px;
+        }
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 30px;
     }
     </style>
 </head>
 <body>
     <h1><a href="index.html">맹구</a></h1>
+    <div id="grid">
     <ol>
         <li><a href="1.html">맹구</a></li>
         <li><a href="2.html" style="color:hotpink;text-decoration: underline;">Other Cats</a></li>
     </ol>
+   <div>
     <h2>Other Cats</h2>
     <p>
         <iframe width="560" height="315" 
@@ -30,7 +45,8 @@
     </p>
     <a title="무현"><img src="무현.jpg" width="400px"></a>
     <p>귀엽다.</p>
-    <br>
-
+    <br><br>
+    </div>
+</div>
 </body>
 </html>
